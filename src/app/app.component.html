@@ -1,0 +1,20 @@
+<app-header></app-header>
+<main 
+  class="transition-all duration-300"
+  [ngClass]="{
+    'lg:ml-64': !isSidebarCollapsed,
+    'lg:ml-20': isSidebarCollapsed
+  }">
+  <app-hero></app-hero>
+  <app-about></app-about>
+  <app-projects></app-projects>
+  <app-skills></app-skills>
+  <app-contact></app-contact>
+</main>
+<app-footer 
+  class="transition-all duration-300"
+  [ngClass]="{
+    'lg:ml-64': !isSidebarCollapsed,
+    'lg:ml-20': isSidebarCollapsed
+  }"></app-footer>
+
