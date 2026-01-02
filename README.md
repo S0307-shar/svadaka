@@ -140,9 +140,4 @@ For platforms that support Node.js:
 
 MIT License - feel free to use this project for your own portfolio!
 
-## Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
 
